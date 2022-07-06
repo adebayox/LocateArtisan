@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".locate"
+    android:background="@drawable/locate">
+
+    <Button
+        android:id="@+id/locatetbtn"
+        android:layout_width="324dp"
+        android:layout_height="43dp"
+        android:layout_marginLeft="39dp"
+        android:layout_marginTop="81dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="80dp"
+        android:layout_marginVertical="612dp"
+        android:textAllCaps="false"
+        android:background="@drawable/onb_bm"
+        android:text="Message"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>

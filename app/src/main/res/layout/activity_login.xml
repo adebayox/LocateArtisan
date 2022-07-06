@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="340dp"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".login"
+    android:background="@drawable/login">
+
+
+    <EditText
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:id="@+id/nameEdit"
+        android:hint="Enter email"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/passwordEdit"
+        android:layout_margin="8dp"
+        android:hint="Enter password"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="12dp"
+        android:text="Login"
+        android:background="@drawable/button_bg"
+        android:id="@+id/loginbtn"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/already"
+        android:layout_margin="8dp"
+        android:paddingLeft="90dp"
+        android:text="forget password? click here"
+        />
+
+
+</LinearLayout>
